@@ -1,7 +1,0 @@
-require("configs.catppuccin")
-require("configs.copy-path")
-require("configs.tree-sitter")
-require("configs.lsp")
-require("configs.indent-blank-line")
-require("configs.git-signs")
-require("configs.fzf")

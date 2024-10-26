@@ -133,6 +133,7 @@ export PATH="$HOME/go/bin:$PATH"
 export ANDROID_HOME="/home/felipe/Android/sdk"
 export JDTLS_JVM_ARGS="-javaagent:/home/felipe/Documents/executables/lombok/lombok.jar"
 export SUDO_EDITOR="nvim"
+export FZF_DEFAULT_COMMAND="git ls-files --cached --others --exclude-standard ."
 
 neofetch
 
