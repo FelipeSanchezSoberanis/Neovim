@@ -125,6 +125,7 @@ alias preview-file="fdfind -H -E '.git/' -t f | fzf --preview '~/.nvim/plugged/f
 alias ls="eza --icons"
 alias du="dust"
 alias cat="batcat"
+alias ngrok-start="ngrok http --url=minnow-neutral-ghoul.ngrok-free.app"
 
 export PATH="/usr/local/texlive/2023/bin/x86_64-linux:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
