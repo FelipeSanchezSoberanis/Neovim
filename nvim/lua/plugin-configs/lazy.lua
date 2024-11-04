@@ -25,6 +25,7 @@ require("lazy").setup({
         {"hrsh7th/cmp-cmdline"}, --
         {"hrsh7th/nvim-cmp"}, --
         {"SirVer/ultisnips"}, --
+        {"honza/vim-snippets"}, --
         {"quangnguyen30192/cmp-nvim-ultisnips"}, --
         {"b0o/schemastore.nvim"}, --
         {"nvim-treesitter/nvim-treesitter"}, --
