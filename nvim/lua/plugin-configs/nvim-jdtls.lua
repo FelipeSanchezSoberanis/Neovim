@@ -15,7 +15,8 @@ vim.api.nvim_create_autocmd("FileType", {
                     "/home/felipe/Documents/executables/jdt-language-server-1.38.0/config_linux",
                     "-data", "/home/felipe/.jdtls-data/" .. vim.fn.getcwd():gsub("%/", "__")
                 },
-                root_dir = vim.fs.root(0, {".git", "mvnw", "gradlew"})
+                root_dir = vim.fs.root(0, {".git", "mvnw", "gradlew"}),
+                settings = {java = {signatureHelp = {enabled = true}}}
             }
             require("jdtls").start_or_attach(config)
         end
