@@ -38,7 +38,8 @@ require("lazy").setup({
         {"catppuccin/nvim", name = "catppuccin", priority = 1000}, --
         {"vim-airline/vim-airline"}, --
         {"tpope/vim-surround"}, --
-        {"tpope/vim-fugitive"} --
+        {"tpope/vim-fugitive"}, --
+        {"mfussenegger/nvim-jdtls"} --
     },
     checker = {enabled = true}
 })
