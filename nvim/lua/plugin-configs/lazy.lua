@@ -40,7 +40,8 @@ require("lazy").setup({
         {"vim-airline/vim-airline"}, --
         {"tpope/vim-surround"}, --
         {"tpope/vim-fugitive"}, --
-        {"mfussenegger/nvim-jdtls"} --
+        {"mfussenegger/nvim-jdtls"}, --
+        {"preservim/nerdcommenter"} --
     },
     checker = {enabled = true}
 })
