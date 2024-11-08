@@ -27,7 +27,13 @@ cmp.setup({
         ["<C-d>"] = cmp.mapping.scroll_docs(4)
 
     }),
-    sources = cmp.config.sources({{name = "nvim_lsp"}, {name = "ultisnips"}}, {{name = "buffer"}})
+    sources = cmp.config.sources({
+        {name = "nvim_lsp"} --
+        -- {name = "ultisnips"} --
+    }, {
+        {name = "buffer"} --
+
+    })
 })
 
 cmp.setup.cmdline({"/", "?"},
